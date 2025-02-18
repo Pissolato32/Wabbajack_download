@@ -1,3 +1,19 @@
+"""
+Wabbajack Download Automator
+Author: Pissolato32
+License: MIT License
+Description: 
+    This script automates the process of clicking the "Slow Download" button 
+    on Nexus Mods, helping users bypass the need for manual interaction 
+    when downloading large modpacks.
+
+Usage:
+    Run the script while the download page is open. 
+    It will detect and click the "Slow Download" button automatically.
+
+"""
+
+
 import time
 import pyautogui
 
