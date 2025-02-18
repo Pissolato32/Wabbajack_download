@@ -7,6 +7,8 @@ In short, this is a local script that automates clicking for you.
 
 # Setup Instructions  
 
+Ensure that Wabbajack.exe is installed and that you've initiated a modpack download within it.
+
 To run this script on a new PC, follow these steps:
 
     1. Install Python from https://www.python.org/downloads/.  
