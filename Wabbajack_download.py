@@ -1,7 +1,7 @@
 import time
 import pyautogui
 
-count = 1050  # Número inicial de downloads
+count = 0  # Número inicial de downloads
 start_time = time.time()  # Marca o início da execução
 
 def click_slow_download(count):
@@ -24,7 +24,7 @@ def click_slow_download(count):
     return count, found
 
 # Loop para monitorar e clicar no botão
-print("Procurando o botão 'Slow Download'...")  # Imprime uma única vez
+print("Procurando o botão 'Slow Download'...")
 while True:
     count, found = click_slow_download(count)
 
